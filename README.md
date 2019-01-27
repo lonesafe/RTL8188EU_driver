@@ -8,7 +8,7 @@
 
 ### 安装
 
-> sudo make install
+> make install
 
 ### 驱动里面的hostapd编译方法：
 >1：进入 hostapd-0.8/hostapd 目录
