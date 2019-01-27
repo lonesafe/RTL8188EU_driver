@@ -1,0 +1,1 @@
+cmd_/root/rtl8188eu-master/8188eu.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /root/rtl8188eu-master/8188eu.ko /root/rtl8188eu-master/8188eu.o /root/rtl8188eu-master/8188eu.mod.o
